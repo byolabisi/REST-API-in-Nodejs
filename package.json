@@ -1,0 +1,62 @@
+{
+  "name": "register-api",
+  "version": "0.0.1",
+  "description": "API for a basic register. RESTful web services using restify written in typescript.",
+  "engines": {
+    "node": "^10.13.0",
+    "npm": "^6.4.1"
+  },
+  "keywords": [
+    "nodejs",
+    "restify",
+    "sequelize",
+    "typescript"
+  ],
+  "author": "rxp01@uark.edu",
+  "license": "MIT",
+  "scripts": {
+    "rebuild": "npm run clean && npm run build",
+    "build": "npm run build-ts && npm run tslint",
+    "start": "node dist/server.js",
+    "clean": "rimraf dist",
+    "build-ts": "tsc",
+    "tslint": "tslint -c tslint.json -p tsconfig.json",
+    "test": "jest --forceExit --coverage --verbose",
+    "postinstall": "npm run rebuild"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "bcrypt-nodejs": "^0.0.3",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "dotenv": "^6.2.0",
+    "errorhandler": "^1.5.0",
+    "restify": "^7.3.0",
+    "pg": "^7.7.1",
+    "sequelize": "^4.41.2",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "@types/async": "^2.0.50",
+    "@types/bcrypt-nodejs": "^0.0.30",
+    "@types/bluebird": "^3.5.24",
+    "@types/body-parser": "^1.17.0",
+    "@types/compression": "^0.0.36",
+    "@types/dotenv": "^6.1.0",
+    "@types/errorhandler": "^0.0.32",
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.12",
+    "@types/restify": "^7.2.6",
+    "@types/supertest": "^2.0.7",
+    "@types/sequelize": "^4.27.32",
+    "chai": "^4.2.0",
+    "jest": "^23.6.0",
+    "node-sass": "^4.10.0",
+    "supertest": "^3.3.0",
+    "ts-jest": "^23.10.5",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2"
+  }
+}
