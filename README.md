@@ -4,20 +4,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/byolabisi/REST-API-in-Nodejs">
-    <img src="images/secure.png" alt="Logo" width="120" height="120">
+    <img src="images/secure.png" alt="Logo" width="250" height="120">
   </a>
-
-    <br />
-    <a href="https://github.com/byolabisi/REST-API-in-Nodejs"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    ·
-    <a href="https://github.com/byolabisi/REST-API-in-Nodejs/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/byolabisi/REST-API-in-Nodejs/issues">Request Feature</a>
   </p>
 </div>
- # Basic description
+
+ ## Basic description
 
  REST (Representational State Transfer) is a standard architecture for building and communicating with web services, It typically mandates resources on the web are represented in a text format (like JSON, HTML, or XML) and can be accessed or modified by a predetermined set of operations.<br> Given that we typically build REST APIs to leverage with HTTP instead of other protocols, these operations correspond to HTTP methods like GET, POST, or PUT.
 
@@ -30,8 +22,8 @@ To start via the terminal navigate to the source code directory and run the foll
 `$ npm run (re)build`  
 `$ npm run start`  
 
- # Example HTTP requests via cURL (be sure to update as needed)
- ## Create a product
+ ## Example HTTP requests via cURL (be sure to update as needed)
+ ### Create a product
 `curl -i -s -H "Content-Type: application/json" -X POST -d '{"lookupCode":"lookupcode4","count":175}' https://byolabisi.herokuapp.com/api/product/`  
  ## Update an existing product by record ID
 `curl -i -s -H "Content-Type: application/json" -X PUT -d '{"id":"bee20aed-5245-46a7-b19c-9ef6abd4ca5c","lookupCode":"lookupcode4","count":200}' https://byolabisi.herokuapp.com/api/product/bee20aed-5245-46a7-b19c-9ef6abd4ca5c`  
