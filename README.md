@@ -1,3 +1,22 @@
+<div id="top"></div>
+<!--
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/byolabisi/REST-API-in-Nodejs">
+    <img src="images/secure.png" alt="Logo" width="120" height="120">
+  </a>
+
+    <br />
+    <a href="https://github.com/byolabisi/REST-API-in-Nodejs"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    ·
+    <a href="https://github.com/byolabisi/REST-API-in-Nodejs/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/byolabisi/REST-API-in-Nodejs/issues">Request Feature</a>
+  </p>
+</div>
  # Basic description
 
  REST (Representational State Transfer) is a standard architecture for building and communicating with web services, It typically mandates resources on the web are represented in a text format (like JSON, HTML, or XML) and can be accessed or modified by a predetermined set of operations.<br> Given that we typically build REST APIs to leverage with HTTP instead of other protocols, these operations correspond to HTTP methods like GET, POST, or PUT.
