@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/byolabisi/REST-API-in-Nodejs">
-    <img src="images/secure.png" alt="Logo" width="250" height="120">
+    <img src="images/secure.png" alt="Logo" width="280" height="140">
   </a>
   </p>
 </div>
